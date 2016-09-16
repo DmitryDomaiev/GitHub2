@@ -5,7 +5,7 @@ Feature: tyuu
 Scenario: 
 Given some given
 When do something
-Then I do..
+Then I do..sdfsdfsdf
 
 @SC_84348825
 Scenario: 
