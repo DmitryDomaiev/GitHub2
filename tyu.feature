@@ -3,7 +3,7 @@ Feature: tyuu
 
 @SC_721836726
 Scenario: 
-Given 123
+Given 1q352
 When 3333
 Then 2222
 
