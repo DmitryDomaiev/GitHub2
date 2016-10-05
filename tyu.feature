@@ -1,13 +1,13 @@
-@ST_73963621
+@ST_717033615
 Feature: tyuu
 
-@SC_226906390
+@SC_691845454
 Scenario: 
 Given some given
 When do something
 Then I do..
 
-@SC_84348825
+@SC_721836726
 Scenario: 
 Given some given
 When do something
