@@ -3,9 +3,9 @@ Feature: tyuu
 
 @SC_721836726
 Scenario: 
-Given asfasasf
-When asfasfasf
-Then sgsdgs
+Given 123
+When 3333
+Then 2222
 
 @SC_691845454
 Scenario: 
