@@ -1,9 +1,14 @@
 @ST_9120 @t @teg1 @teg2 @teg3
 Feature: Feature
 
-@SC_40787
-Scenario Outline: 
+Background: Beckground
+
 Given some given
+When do something
+Then I do...
+
+@SC_40787
+Scenario Outline: asd1111
 When do something
 Then I do...
 And <zxc> <xcv> <asd> <>
@@ -16,3 +21,8 @@ Examples:
 ||||
 ||||
 ||||
+
+@SC_43465
+Scenario: 
+When do something
+Then I do...
