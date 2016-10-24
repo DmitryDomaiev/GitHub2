@@ -1,4 +1,4 @@
-@ST_9120 @t @teg1 @teg2 @teg3
+@ST_9120 @t @teg1 @teg2 @teg3 @REL-2329
 Feature: Feature
 
 Background: Beckground
@@ -22,7 +22,8 @@ Examples:
 ||||
 ||||
 
-@SC_43465
+@SC_43465 @test @REL-2329 @bbb @yyy
 Scenario: 
+asdasdadsasd
 When do something
 Then I do...

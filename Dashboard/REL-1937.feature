@@ -19,3 +19,8 @@ Given I am
 When I navigate to Domain with no subscribed users.
 And I see that dashboard page is opened.
 Then I see message 'No users are subscribed to joint projects' on Team panel.
+# After implementation story REL-2285
+# Instead step 4:
+# Then I see message 'No users are subscribed to joint projects' on Team panel.
+# And I see that link 'Learn more about Relime' is displayed.
+# And I see that picture for empty Team panel is displayed.
