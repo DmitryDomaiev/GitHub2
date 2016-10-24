@@ -1,7 +1,7 @@
-@ST_10049
+@ST_10256
 Feature: REL-1745 Sorting projects on Projects panel
 
-@SC_41943
+@SC_43251
 Scenario Outline: Default sorting DO
 By default project should be sorted by date of creation in descending order. The most recently created project should be displayed the first
 Given I am on Dasboard page.
@@ -20,7 +20,7 @@ Examples:
 |Public projects|
 |Private projects|
 
-@SC_41944
+@SC_43252
 Scenario: Default sorting PM and TM
 Given I am on Dasboard page.
 And I see that 'Sort controllers' is displayed near 'Name', 'KEY' and 'Role' columns headers only.
@@ -37,7 +37,7 @@ And I see that columns 'Name' and 'Role' are sortable.
 And I see that column 'Actions' is not displayed.
 And I see that column 'index numbers' is not sortable.
 
-@SC_41945
+@SC_43253
 Scenario Outline: Sorting for DO
 Given I am on Dasboard page.
 When I sorting by column <Column name>.
@@ -52,7 +52,7 @@ Examples:
 |Name|Public projects|
 |KEY|Private projects|
 
-@SC_42807
+@SC_43254
 Scenario Outline: Sorting for PM and TM
 Given I am on Dasboard page.
 When I sorting by column <Column name>.
@@ -64,10 +64,10 @@ Then I see that custom sorting is retained.
 
 Examples: 
 |Column name|Tabs|
-|Name|My subscriptions|
-|KEY|Public projects|
+|Name|Public projects|
+|KEY|My subscriptions |
 
-@SC_42809
+@SC_43255
 Scenario: Corting by column Role
 Given I am on Dasboard page.
 When I sorting by column 'Role'.
