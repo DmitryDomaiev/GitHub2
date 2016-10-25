@@ -65,7 +65,7 @@ Then I see that custom sorting is retained.
 Examples: 
 |Column name|Tabs|
 |Name|Public projects|
-|KEY|My subscriptions |
+|KEY|My subscriptions|
 
 @SC_43255
 Scenario: Sorting by column Role
