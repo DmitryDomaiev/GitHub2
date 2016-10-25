@@ -53,7 +53,7 @@ Examples:
 |KEY|Private projects|
 
 @SC_43254
-Scenario Outline: Sorting for PM and TM
+Scenario Outline: Sorting for PM and TM.
 Given I am on Dasboard page.
 When I sorting by column <Column name>.
 Then I see that column <Column name> sorted in ascending order (A-Z).
@@ -68,7 +68,7 @@ Examples:
 |KEY|My subscriptions |
 
 @SC_43255
-Scenario: Corting by column Role
+Scenario: Sorting by column Role
 Given I am on Dasboard page.
 When I sorting by column 'Role'.
 Then I see that column 'Role' sorted in order 'Project Manager (PM)' listed the first.
