@@ -1,8 +1,34 @@
-@ST_11676
-Feature: name
+@ST_12950
+Feature: Some feature name
+There is some description
 
-@SC_48647
-Scenario: 
+Background: Beckground
+
+Given some given
+When do something
+Then I do...
+
+@SC_54194
+Scenario: Scenario 1
+Some description
+Given I created scenario qwerety
+Then I see it in Relime
+And hover Direct mode
+
+@SC_54195
+Scenario: Scenario 2
+Given some given
+When do something
+Then I do...
+
+@SC_54196
+Scenario: Scenario 3
+Given some given
+When do something
+Then I do...
+
+@SC_54197
+Scenario: Scenario 4
 Given some given
 When do something
 Then I do...
