@@ -20,6 +20,7 @@ Examples:
 |Public projects|
 |Private projects|
 
+
 @SC_43252
 Scenario: Default sorting PM and TM
 Given I am on Dasboard page.
@@ -52,6 +53,7 @@ Examples:
 |Name|Public projects|
 |KEY|Private projects|
 
+
 @SC_43254
 Scenario Outline: Sorting for PM and TM.
 Given I am on Dasboard page.
@@ -66,6 +68,7 @@ Examples:
 |Column name|Tabs|
 |Name|Public projects|
 |KEY|My subscriptions|
+
 
 @SC_43255
 Scenario: Sorting by column Role

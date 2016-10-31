@@ -30,6 +30,7 @@ Examples:
 ||||||||
 ||||||||
 
+
 @SC_43465 @test @REL-2329 @bbb @yyy
 Scenario Outline: Scenario 2
 asdasdadsasd
@@ -40,6 +41,7 @@ And <name 1> <name 2> <name 3> <name 4>
 Examples: 
 |name 1|name 2|name 3|name 4|
 |1|1|1|1|
+
 
 @SC_54200
 Scenario: 
