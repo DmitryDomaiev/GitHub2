@@ -1,7 +1,7 @@
-@ST_11245
+@ST_18428
 Feature: Feature
 
-@SC_53795
+@SC_19919
 Scenario: 
 Given some given
 When do something
