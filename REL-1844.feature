@@ -1,5 +1,5 @@
 @ST_12950
-Feature: Some feature name
+Feature: REL-1844
 There is some description
 
 Background: Beckground
