@@ -1,13 +1,13 @@
-@ST_14648 @t @tag4
+@ST_95078 @t @tag4
 Feature: Feature1
 
-@SC_61310
+@SC_299132
 Scenario: 
 Given some given
 When do something
 Then I do...
 
-@SC_61311
+@SC_299133
 Scenario: 
 Given some given
 When do something

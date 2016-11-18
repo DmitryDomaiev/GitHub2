@@ -1,7 +1,7 @@
-@ST_14478
+@ST_95083
 Feature: REL-2222 Notifications: Do not display notifications from a previous page on a new page.
 
-@SC_60500
+@SC_299150
 Scenario: Error notifications .
 Given I am on page 'Settings'.
 And I select invalid account for GIT.
