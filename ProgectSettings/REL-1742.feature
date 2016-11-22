@@ -1,4 +1,4 @@
-@ST_17610
+@ST_17610 @asd @sdf @dfg
 Feature: REL-1742 Hide not used selectors and rename appropriate controllers on Project settings page
 
 @SC_74280

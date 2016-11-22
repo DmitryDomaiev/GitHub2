@@ -1,4 +1,4 @@
-@ST_14653 @t @teg1 @teg2 @teg3 @REL-2329
+@ST_14653
 Feature: Feature
 
 Background: Beckground
