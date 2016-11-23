@@ -31,7 +31,7 @@ Examples:
 ||||||||
 
 
-@SC_29072 @test @REL-2329 @bbb @yyy
+@SC_29072 @REL-2329 @test @bbb @yyy
 Scenario Outline: Scenario 2
 asdasdadsasd
 When do something
