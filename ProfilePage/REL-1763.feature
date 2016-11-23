@@ -1,4 +1,4 @@
-@ST_95085
+@ST_4402
 Feature: REL-1763 Profile page: Update photo.
 
 Background: Beckground
@@ -6,7 +6,7 @@ Background: Beckground
 Given I am logged in Relime
 And I navigate to profile page
 
-@SC_299155
+@SC_29062
 Scenario: 'Profile photo updating' pop-up
 When I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
@@ -21,14 +21,14 @@ And I see that placeholder 'Select your photo' displays in a 'field for photo se
 And I see that text 'Image size shouldn't be more than 6MB' is displayed under select photo control
 And I see that button 'Update' is displayed
 
-@SC_299156
+@SC_29063
 Scenario: open/select file pop-up
 Given I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
 When I click icon 'Folder'
 Then I see that pop-up 'open/select file' is opened
 
-@SC_299157
+@SC_29064
 Scenario: Select photo
 Given I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
@@ -40,7 +40,7 @@ When I click button 'X' in right up corner
 Then I see that pop-up 'Profile photo updating' is closed
 And I see that  the 'defolt' photo still is applied for profile
 
-@SC_299158
+@SC_29065
 Scenario: Resize and applying photo
 Given I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
@@ -51,7 +51,7 @@ When I click button Update
 Then I see that pop-up 'Profile photo updating' is closed
 And I see that the image is applied for profile
 
-@SC_299159
+@SC_29066
 Scenario: Select not an image file
 Given I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
@@ -62,7 +62,7 @@ Then I see that the ' default image' photo is displayed in 'circle' and 'square'
 When I click button 'Update'
 Then I see that nothing happens
 
-@SC_299160
+@SC_29067
 Scenario: Select file more then 6 MB
 Given I click button 'Update photo'
 And pop-up 'Profile photo updating' is opened
@@ -73,7 +73,7 @@ When I click button 'Update'
 Then I see that nothing happens
 And I see that text 'Image size shouldn't be more than 6MB' is still colored in red
 
-@SC_299161
+@SC_29068
 Scenario: Imaje size on Profile and other pages
 Then I see that imaje size for user info have '160x160' pixels
 And I see that imaje size for header have '35x35' pixels

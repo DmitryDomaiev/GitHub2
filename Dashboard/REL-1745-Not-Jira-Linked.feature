@@ -1,7 +1,7 @@
-@ST_95079
+@ST_4396
 Feature: REL-1745-Not-Jira-Linked
 
-@SC_299134
+@SC_29041
 Scenario Outline: Default sorting DO
 By default project should be sorted by date of creation in descending order. The most recently created project should be displayed the first
 Given I am on Dasboard page.
@@ -21,7 +21,7 @@ Examples:
 |Private projects|
 
 
-@SC_299135
+@SC_29042
 Scenario: Default sorting PM and TM
 Given I am on Dasboard page.
 And I see that 'Sort controllers' is displayed near 'Name', 'KEY' and 'Role' columns headers only.
@@ -38,7 +38,7 @@ And I see that columns 'Name' and 'Role' are sortable.
 And I see that column 'Actions' is not displayed.
 And I see that column 'index numbers' is not sortable.
 
-@SC_299136
+@SC_29043
 Scenario Outline: Sorting for DO
 Given I am on Dasboard page.
 When I sorting by column <Column name>.
@@ -54,7 +54,7 @@ Examples:
 |KEY|Private projects|
 
 
-@SC_299137
+@SC_29044
 Scenario Outline: Sorting for PM and TM
 Given I am on Dasboard page.
 When I sorting by column <Column name>.
@@ -70,7 +70,7 @@ Examples:
 |KEY|Public projects|
 
 
-@SC_299138
+@SC_29045
 Scenario: Corting by column Role
 Given I am on Dasboard page.
 When I sorting by column 'Role'.

@@ -1,7 +1,7 @@
-@ST_95081
+@ST_4398
 Feature: REL-1937-Not-Jira-Linked
 
-@SC_299144
+@SC_29051
 Scenario: Sign in as DO.
 # After implementation story REL-2285
 # Instead step 4:
@@ -13,7 +13,7 @@ When I navigate to Domain with no subscribed users.
 And I see that dashboard page is opened.
 Then I see message 'No users are subscribed to current domain's project' on Team panel.
 
-@SC_299145
+@SC_29052
 Scenario: Sign in as PM / TM.
 # After implementation story REL-2285
 # Instead step 4:

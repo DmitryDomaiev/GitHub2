@@ -1,7 +1,7 @@
-@ST_95084
+@ST_4401
 Feature: REL-2293 Domain: Close left navigation bar when a user navigates from any Project page to Domain Dashboard page.
 
-@SC_299151
+@SC_29058
 Scenario: Scenario 1
 Given I am on page 'Dasboard'.
 And I see that project is opened.
@@ -12,7 +12,7 @@ Then I see that page 'Dasboard' is opened.
 And I see then the left navigation panel is collapsed.
 And I see that button 'Burger' is disabled.
 
-@SC_299152
+@SC_29059
 Scenario: Scenario 2
 Given I am on page 'Dasboard'.
 And I see that project is opened.
@@ -23,7 +23,7 @@ Then I see that page 'Dasboard' is opened.
 And I see then the left navigation panel is collapsed.
 And I see that button 'Burger' is disabled.
 
-@SC_299153
+@SC_29060
 Scenario: Scenario 3
 Given I am on page 'Dasboard'.
 And I see that project is opened.
