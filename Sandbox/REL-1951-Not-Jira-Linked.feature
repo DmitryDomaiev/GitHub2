@@ -80,9 +80,3 @@ And I sse link 'Project Activity' on left navigation panel
 And I sse link 'Editor' on left navigation panel
 And I see that 'features panel' is displayed
 And I see that 'scenario panel' is displayed
-
-@SC_87326
-Scenario: test
-Given some given
-When do something
-Then I do...
