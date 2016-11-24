@@ -1,5 +1,5 @@
 @ST_20470 @t @REL-2329 @teg1 @teg2 @teg3
-Feature: Feature
+Feature: Feature 💃
 
 Background: Beckground
 

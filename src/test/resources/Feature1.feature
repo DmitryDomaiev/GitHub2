@@ -8,7 +8,14 @@ When do something
 Then I do...
 
 @SC_87294
-Scenario: 
+Scenario: Scenario2
 Given some given
 When do something
 Then I do...
+
+@SC_87623
+Scenario: \_(ツ)_/¯
+Given trololo
+And 📚: 🙈🙉🙊
+And 📕: 💃
+And 😐🎸

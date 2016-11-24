@@ -1,5 +1,6 @@
 @ST_20532
-Feature: 
+Feature: 🙈🙉🙊
+🙈🙉🙊
 
 @SC_87547
 Scenario: Scenario1
