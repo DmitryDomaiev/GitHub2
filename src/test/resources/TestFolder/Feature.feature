@@ -1,4 +1,4 @@
-@ST_20470 @t @REL-2329 @teg1 @teg2 @teg3
+@ST_4510 @t @REL-2329 @teg1 @teg2 @teg3
 Feature: Feature 💃
 
 Background: Beckground
@@ -7,7 +7,7 @@ Given some given
 When do something
 Then I do...
 
-@SC_87328
+@SC_29783
 Scenario Outline: Scenario 1
 When do something
 Then I do...
@@ -31,7 +31,7 @@ Examples:
 ||||||||
 
 
-@SC_87329 @test @REL-2329 @bbb @yyy
+@SC_29784 @test @REL-2329 @bbb @yyy
 Scenario Outline: Scenario 2
 asdasdadsasd
 When do something
@@ -43,19 +43,19 @@ Examples:
 |1|1|1|1|
 
 
-@SC_87330
+@SC_29785
 Scenario: Scenario 4
 Given some given
 When do something
 Then I do...
 
-@SC_87331
+@SC_29786
 Scenario: Scenario 5
 Given some given
 When do something
 Then I do...asdgagds
 
-@SC_87332
+@SC_29787
 Scenario: Scenario 6
 Given some given
 When do something

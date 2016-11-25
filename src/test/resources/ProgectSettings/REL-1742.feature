@@ -1,7 +1,7 @@
-@ST_20469
+@ST_4507
 Feature: REL-1742 Hide not used selectors and rename appropriate controllers on Project settings page
 
-@SC_87325
+@SC_29774
 Scenario: Settings page
 Given I am on Settings page
 And I see that select BDD Framework is not displayed
