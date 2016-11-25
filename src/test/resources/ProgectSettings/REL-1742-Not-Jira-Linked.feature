@@ -1,16 +1,7 @@
-@ST_20850 @asd @sdf @dfg
+@ST_20469
 Feature: REL-1742 Hide not used selectors and rename appropriate controllers on Project settings page
 
-@SC_88694
-Scenario: Creane new poject
-Given I am in page "Default"
-And I am signed in as "DO"
-And I am in page "Dasboard"
-When I click button "+"
-Then I see that pop-up "NEW PROJECT" is displayed
-And I see that "BDD Framework" is not displayed
-
-@SC_88695
+@SC_87325
 Scenario: Settings page
 Given I am in page "Default"
 And I am signed in as "DO"
@@ -29,3 +20,12 @@ And I see "Jira" is diplayed
 When I click text field 'Path' for Jira
 Then I see that pop-up "Add task tracking system" is not dispalyed
 And I see that button  "Add task tracking system" is not displayed.
+
+@SC_88693
+Scenario: Creane new poject
+Given I am in page "Default"
+And I am signed in as "DO"
+And I am in page "Dasboard"
+When I click button "+"
+Then I see that pop-up "NEW PROJECT" is displayed
+And I see that "BDD Framework" is not displayed
