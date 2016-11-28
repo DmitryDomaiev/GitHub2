@@ -55,7 +55,7 @@ Given some given
 When do something
 Then I do...asdgagds
 
-@SC_88746
+@SC_89386
 Scenario: Scenario 6
 Given some given
 When do something
