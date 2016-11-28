@@ -25,6 +25,7 @@ Examples:
 |Folder|
 |Feature|
 
+
 @SC_90771
 Scenario Outline: Delete features tree elements
 When I delete a <tree element>
@@ -34,6 +35,7 @@ Examples:
 |tree element|
 |Folder|
 |Feature|
+
 
 @SC_90772
 Scenario: Collapse Features tree
