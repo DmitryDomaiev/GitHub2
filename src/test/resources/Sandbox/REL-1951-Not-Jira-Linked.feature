@@ -67,7 +67,7 @@ And I see that circle graph is displayed
 And I see that "Total amount" "In progress" "Automated" is displayed
 And I see that panel "pagination" is not present on the page.
 
-@SC_88739
+@SC_89341
 Scenario: Editor - main
 When I open any domain in 'sandbox'
 Then I see that page 'Editor' is opened
