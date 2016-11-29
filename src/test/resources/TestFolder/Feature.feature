@@ -1,4 +1,4 @@
-@ST_20865 @t @REL-2329 @teg1 @teg2 @teg3
+@ST_20865 @t @REL-2329 @teg3 @teg1 @teg2
 Feature: Feature 💃
 
 Background: Beckground
