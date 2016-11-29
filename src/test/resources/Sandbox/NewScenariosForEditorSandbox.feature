@@ -1,5 +1,5 @@
 @ST_21084
-Feature: New Scenarios for Editor
+Feature: New Scenarios for Editor Sandbox
 
 Background: 
 
@@ -114,3 +114,8 @@ And I see tnat scenario is unlocked
 Scenario: Delete the scenario
 When I delete the scenario
 Then I see that the scenario was deleted
+
+@SC_95820
+Scenario: Save all Scenarios
+When I save several scenarios
+Then I see that all scenarios was saved
