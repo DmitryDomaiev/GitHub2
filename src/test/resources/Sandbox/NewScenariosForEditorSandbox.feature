@@ -119,3 +119,18 @@ Then I see that the scenario was deleted
 Scenario: Save all Scenarios
 When I save several scenarios
 Then I see that all scenarios was saved
+
+@SC_101345
+Scenario: Open one scenario at a time
+When I select check box "Open one scenario at a time"
+Then I see that only 1 scenario can be expanded
+
+@SC_101543
+Scenario: More then 10 scenarios
+When I have more then 10 scenarios
+Then I see that "Pagination panel" is appear
+
+@SC_101544
+Scenario: Pagination panel
+When I to next page
+Then I see that next page is displayed
