@@ -1,4 +1,4 @@
-@ST_20863
+@ST_5207
 Feature: REL-1951 Actions for guest user inside Test domain projects | Non J-L
 
 Background: background
@@ -7,7 +7,7 @@ Given I am on project "Sandbox"
 And I see that button 'burger' is disabled
 And I see that "Project REY" is unique for each reloading the project
 
-@SC_88735
+@SC_33978
 Scenario: Activity page - main
 When I open any domain in 'sandbox'
 Then I see that page 'Activity' is opened
@@ -23,7 +23,7 @@ And I see that tabs "Features" "Scenarios" "Steps" is displayed
 And I see that circle graph is displayed
 And I see that "Total amount" "In progress" "Automated" is displayed
 
-@SC_88736
+@SC_33979
 Scenario: Activity page - Features
 When I open any domain in 'sandbox'
 And I click tab 'Features'
@@ -38,7 +38,7 @@ And I see that circle graph is displayed
 And I see that "Total amount" "In progress" "Automated" is displayed
 And I see that panel "pagination" is present on the page.
 
-@SC_88737
+@SC_33980
 Scenario: Activity page - Scenarios
 When I open any domain in 'sandbox'
 And I click tab 'Scenarios'
@@ -53,7 +53,7 @@ And I see that circle graph is displayed
 And I see that "Total amount" "In progress" "Automated" is displayed
 And I see that panel "pagination" is present on the page.
 
-@SC_88738
+@SC_33981
 Scenario: Activity page - Steps
 When I open any domain in 'sandbox'
 And I click tab 'Steps'
@@ -67,7 +67,7 @@ And I see that circle graph is displayed
 And I see that "Total amount" "In progress" "Automated" is displayed
 And I see that panel "pagination" is not present on the page.
 
-@SC_89387
+@SC_33982
 Scenario: Editor - main
 When I open any domain in 'sandbox'
 Then I see that page 'Editor' is opened
