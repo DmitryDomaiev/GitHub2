@@ -1,4 +1,4 @@
-@ST_20852 @t @tag4
+@ST_20852
 Feature: Feature1
 
 @SC_88699
