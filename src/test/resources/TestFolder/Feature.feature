@@ -1,4 +1,4 @@
-@ST_5210 @t @REL-2329 @teg3 @teg1 @teg2
+@ST_5210 @t @teg1 @teg2 @teg3 @REL-2329
 Feature: Feature 💃
 
 Background: Beckground
@@ -31,7 +31,7 @@ Examples:
 ||||||||
 
 
-@SC_33987 @test @REL-2329 @bbb @yyy
+@SC_33987 @REL-2329 @test @bbb @yyy
 Scenario Outline: Scenario 2
 asdasdadsasd
 When do something
