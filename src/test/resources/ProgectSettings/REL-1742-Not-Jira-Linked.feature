@@ -1,7 +1,7 @@
-@ST_5357
+@ST_25764
 Feature: REL-1742 Hide not used selectors and rename appropriate controllers on Project settings page
 
-@SC_34538
+@SC_104297
 Scenario: Settings page
 Given I am in page "Default"
 And I am signed in as "DO"
@@ -21,7 +21,7 @@ When I click text field 'Path' for Jira
 Then I see that pop-up "Add task tracking system" is not dispalyed
 And I see that button  "Add task tracking system" is not displayed.
 
-@SC_34539
+@SC_104298
 Scenario: Creane new poject
 Given I am in page "Default"
 And I am signed in as "DO"

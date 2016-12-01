@@ -1,20 +1,20 @@
-@ST_5347 @t @tag4
+@ST_25754 @t @tag4
 Feature: Feature1
 
-@SC_34503
+@SC_104262
 Scenario: Scenario2
 Given some given
 When do something
 Then I do...
 
-@SC_34504
+@SC_104263
 Scenario: \_(ツ)_/¯
 Given trololo
 And 📚: 🙈🙉🙊
 And 📕: 💃
 And 😐🎸
 
-@SC_34505
+@SC_104264
 Scenario: 
 Given some given
 When do something

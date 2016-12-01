@@ -1,14 +1,14 @@
-@ST_5349
+@ST_25756
 Feature: 🙈🙉🙊
 🙈🙉🙊
 
-@SC_34508
+@SC_104267
 Scenario: Scenario1
 Given some given
 When do something
 Then I do...
 
-@SC_34509
+@SC_104268
 Scenario: Scenario2
 🙈🙉🙊
 Given some given
