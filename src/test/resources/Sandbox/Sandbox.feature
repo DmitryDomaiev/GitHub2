@@ -1,7 +1,7 @@
-@ST_5208
+@ST_5361
 Feature: Sandbox
 
-@SC_33983
+@SC_34571
 Scenario: Navigate to Sandbox
 Given I navigate to domain "Sandbox"
 When I see thant page "Dashboard" is opened
