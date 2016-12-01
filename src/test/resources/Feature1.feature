@@ -10,9 +10,6 @@ Then I do...
 @SC_88698
 Scenario: \_(ツ)_/¯
 Given trololo
-And 📚: 🙈🙉🙊
-And 📕: 💃
-And 😐🎸
 
 @SC_93802
 Scenario: 
