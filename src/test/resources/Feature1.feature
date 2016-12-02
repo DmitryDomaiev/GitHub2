@@ -1,4 +1,4 @@
-@ST_25754 @t @tag4
+@ST_25754
 Feature: Feature1
 
 @SC_104262
@@ -16,4 +16,3 @@ Scenario:
 Given some given
 When do something
 Then I do...
-And asafsasfafs
