@@ -30,6 +30,7 @@ Examples:
 ||||||||
 ||||||||
 
+
 @SC_104334 @test @REL-2329 @bbb @yyy @1
 Scenario Outline: Scenario 2
 asdasdadsasd
@@ -40,6 +41,7 @@ And <name 1> <name 2> <name 3> <name 4>
 Examples: 
 |name 1|name 2|name 3|name 4|
 |1|1|1|1|
+
 
 @SC_104335
 Scenario: Scenario 4
@@ -53,7 +55,7 @@ Given some given
 When do something
 Then I do...asdgagds
 
-@SC_104337
+@SC_106897
 Scenario: Scenario 6
 Given some given
 When do something
