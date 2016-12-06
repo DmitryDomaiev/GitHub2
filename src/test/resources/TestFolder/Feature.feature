@@ -1,4 +1,4 @@
-@ST_25770
+@ST_25770 @1
 Feature: Feature 💃
 
 Background: Beckground
