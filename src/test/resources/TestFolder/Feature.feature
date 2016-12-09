@@ -44,19 +44,24 @@ Examples:
 
 
 @SC_104335
-Scenario: Scenario 4
+Scenario: Scenario 3
 Given some given
 When do something
 Then I do...
 
 @SC_104336
-Scenario: Scenario 5
+Scenario: Scenario 4
 Given some given
 When do something
 Then I do...asdgagds
 
 @SC_106897
-Scenario: Scenario 6
+Scenario: Scenario 5
 Given some given
 When do something
 Then I do...
+
+@SC_117282
+Scenario: Scenario6
+Given lalala
+And ololo
