@@ -43,25 +43,25 @@ Examples:
 |1|1|1|1|
 
 
-@SC_104335
+@SC_123368
 Scenario: Scenario 3
 Given some given
 When do something
 Then I do...
 
-@SC_104336
+@SC_123369
 Scenario: Scenario 4
 Given some given
 When do something
 Then I do...asdgagds
 
-@SC_106897
+@SC_123370
 Scenario: Scenario 5
 Given some given
 When do something
 Then I do...
 
-@SC_117282
+@SC_123371
 Scenario: Scenario6
 Given lalala
 And ololo
