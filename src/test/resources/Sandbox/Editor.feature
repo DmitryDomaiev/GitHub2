@@ -3,8 +3,7 @@ Feature: New Scenarios for Editor Sandbox
 
 Background: 
 
-Given I am on project "Sandbox"
-And I see that the page "Dasboard" is opened
+Given I see that the page "Editor" is opened
 
 @SC_123385
 Scenario: New Folder
@@ -54,7 +53,7 @@ When I edit the field "FEATURE" near Features tree
 Then I see that the field "FEATURE" is edited
 
 @SC_123392
-Scenario: 
+Scenario: Editing FILE NAME field
 When I edit the field "FILE NAME" near Features tree
 Then I see that the field "FILE NAME" is edited
 
@@ -89,6 +88,8 @@ When I edit the scenario title
 Then I see that the scenario title is changed
 And I see that the scenario is locked
 And I see that lable "locked by me at 'h:mm' ap/pm" is displayed
+And I see that scenario is not synced with GIT
+And I see that scenario is not synced with Jira
 
 @SC_123399
 Scenario: Edit the Scenario
@@ -96,6 +97,8 @@ When I edit the scenario
 Then I see that the scenario is changed
 And I see that the scenario is locked
 And I see that lable "locked by me at 'h:mm' ap/pm" is displayed
+And I see that scenario is not synced with GIT
+And I see that scenario is not synced with Jira
 
 @SC_123400
 Scenario: Save the Scenario
@@ -132,5 +135,5 @@ Then I see that "Pagination panel" is appear
 
 @SC_123406
 Scenario: Pagination panel
-When I to next page
+When I go to next page
 Then I see that next page is displayed

@@ -54,7 +54,7 @@ When I edit the field "FEATURE" near Features tree
 Then I see that the field "FEATURE" is edited
 
 @SC_123415
-Scenario: 
+Scenario: Editing FILE NAME field
 When I edit the field "FILE NAME" near Features tree
 Then I see that the field "FILE NAME" is edited
 
@@ -134,3 +134,9 @@ Then I see that "Pagination panel" is appear
 Scenario: Pagination panel
 When I to next page
 Then I see that next page is displayed
+
+@SC_123430
+Scenario: Update from GIT
+When I update project from GIT
+Then I see thant project updated
+And I see that success notification is appear
