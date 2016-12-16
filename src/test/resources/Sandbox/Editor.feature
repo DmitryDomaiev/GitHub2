@@ -173,3 +173,13 @@ Scenario: Update Scenario from Jira
 When I update scenario from Jira
 Then I see that scenario updated from
 And I see that success notification is appear
+
+@SC_123449
+Scenario: Update Scenario from GIT is disabled
+When the scenario is synced with GIT
+Then I see that 'Update from Git' is disabled for this scenario
+
+@SC_123450
+Scenario: Update Scenario from Jira is disabled
+When the scenario is synced with Jira
+Then I see that 'Update from Jira' is disabled for this scenario
