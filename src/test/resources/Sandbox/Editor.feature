@@ -139,12 +139,37 @@ When I go to next page
 Then I see that next page is displayed
 
 @SC_123443
-Scenario: Update from GIT
+Scenario: Update Feature(s) from GIT
 When I update project from GIT
-Then I see that selected Feature(s) is updated
+Then I see that selected Feature(s) is updated from GIT
 And I see that success notification is appear
 
 @SC_123444
-Scenario: Update from Jira (Not compleated)
-When I update
-Then I see that sselected
+Scenario: Update Feature(s) from Jira
+When I update from Jira
+Then I see that selected Featuare(s) is updated from
+And I see that success notification is appear
+
+@SC_123445
+Scenario: Export to GIT
+When I export project to GIT
+Then I see that selected Feature(s) is synced with GIT
+And I see that success notification is appear
+
+@SC_123446
+Scenario: Export to Jira
+When I export project to Jira
+Then I see that selected Feature(s) is synced with Jira
+And I see that success notification is appear
+
+@SC_123447
+Scenario: Update Scenario from GIT
+When I update scenario from GIT
+Then I see that scenario updated from GIT
+And I see that success notification is appear
+
+@SC_123448
+Scenario: Update Scenario from Jira
+When I update scenario from Jira
+Then I see that scenario updated from
+And I see that success notification is appear
