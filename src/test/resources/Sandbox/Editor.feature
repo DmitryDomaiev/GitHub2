@@ -137,3 +137,14 @@ Then I see that "Pagination panel" is appear
 Scenario: Pagination panel
 When I go to next page
 Then I see that next page is displayed
+
+@SC_123443
+Scenario: Update from GIT
+When I update project from GIT
+Then I see that selected Feature(s) is updated
+And I see that success notification is appear
+
+@SC_123444
+Scenario: Update from Jira (Not compleated)
+When I update
+Then I see that sselected
