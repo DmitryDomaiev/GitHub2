@@ -7,6 +7,11 @@ Given some given
 When do something
 Then I do...
 
+@SC_123371
+Scenario: Scenario6
+Given lalala
+And ololo
+
 @SC_104333
 Scenario Outline: Scenario 1
 When do something
@@ -60,9 +65,3 @@ Scenario: Scenario 5
 Given some given
 When do something
 Then I do...
-
-@SC_123371
-Scenario: Scenario6
-Given lalala
-And ololo
-Then Dima test autocomplite
