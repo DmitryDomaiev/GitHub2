@@ -16,4 +16,3 @@ Scenario:
 Given some given
 When do something
 Then I do...
-And Dima test autocomplite 2

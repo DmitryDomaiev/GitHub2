@@ -65,3 +65,4 @@ Then I do...
 Scenario: Scenario6
 Given lalala
 And ololo
+Then Test autocomplete list
