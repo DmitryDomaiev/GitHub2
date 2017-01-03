@@ -1,7 +1,7 @@
-@ST_25760
+@ST_10167
 Feature: REL-1937 - Display explanation text on Team panel when no users present in it
 
-@SC_104281
+@SC_67704
 Scenario: Sign in as DO.
 Steps are adapted according to story 'REL-2285' and requirements from QWIKI ->
 Project and Team panel views depending on user role (https://qwiki.unitedsofthouse.com/pages/viewpage.action?spaceKey=GGo&title=Project+and+Team+panel+views+depending+on+user+role)
@@ -12,7 +12,7 @@ Then I see message 'No users are subscribed to projects of the current domain' o
 And I see that link 'Learn more about Relime' is displayed.
 And I see that picture for empty Team panel is displayed.
 
-@SC_104282
+@SC_67705
 Scenario: Sign in as PM / TM.
 Steps are adapted according to story 'REL-2285' and requirements from QWIKI ->
 Project and Team panel views depending on user role (https://qwiki.unitedsofthouse.com/pages/viewpage.action?spaceKey=GGo&title=Project+and+Team+panel+views+depending+on+user+role)
@@ -23,7 +23,7 @@ Then I see message 'No users are subscribed to projects of the current domain' o
 And I see that link 'Learn more about Relime' is displayed.
 And I see that picture for empty Team panel is displayed.
 
-@SC_104283
+@SC_67706
 Scenario: Sign in as PM / TM.
 Steps are adapted according to story 'REL-2285' and requirements from QWIKI ->
 Project and Team panel views depending on user role (https://qwiki.unitedsofthouse.com/pages/viewpage.action?spaceKey=GGo&title=Project+and+Team+panel+views+depending+on+user+role)
@@ -34,7 +34,7 @@ Then I see message 'No users are subscribed to projects of the current domain' o
 And I see that link 'Learn more about Relime' is displayed.
 And I see that picture for empty Team panel is displayed.
 
-@SC_104284
+@SC_67707
 Scenario: Sign in as DO.
 Steps are adapted according to story 'REL-2285' and requirements from QWIKI ->
 Project and Team panel views depending on user role (https://qwiki.unitedsofthouse.com/pages/viewpage.action?spaceKey=GGo&title=Project+and+Team+panel+views+depending+on+user+role)
