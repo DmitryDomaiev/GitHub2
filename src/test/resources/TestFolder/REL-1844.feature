@@ -1,8 +1,2 @@
-@ST_37883
-Feature: 
-
-@SC_146839
-Scenario: Scenario1
-Given some given
-When do something
-Then I do...
+@ST_39359
+Feature: Feature name for test REL-2837 Dashboard

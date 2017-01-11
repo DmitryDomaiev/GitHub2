@@ -1,13 +1,17 @@
-@ST_10162
+@ST_26452
 Feature: Feature1
 
-@SC_67688
+Background: 
+
+Given some given
+
+@SC_106893
 Scenario: 
 Given some given
 When do something
 Then I do...
 
-@SC_67689
+@SC_106894
 Scenario: 
 Given some given
 When do something
