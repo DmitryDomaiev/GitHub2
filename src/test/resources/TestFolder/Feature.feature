@@ -7,11 +7,6 @@ Given some given
 When do something
 Then I do...
 
-Scenario Outline: Scenario 1
-When do something
-Then I do...
-And test REL-2772 autocomplite
-
 @SC_104333
 Scenario Outline: Scenario 1
 When do something
@@ -71,3 +66,9 @@ Scenario: Scenario6
 Given lalala
 And ololo
 And testing bug 2750
+
+@SC_155513
+Scenario: Scenario 1
+When do something
+Then I do...
+And test REL-2772 autocomplite
