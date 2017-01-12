@@ -66,6 +66,14 @@ Scenario: Scenario6
 Given lalala
 And ololo
 And testing bug 2750
+And -444444minus
+And - aaaaaa
+And test step with - minus
+And - minus in the start page
+And -minus!!!
+And - minus2222
+And minus 2222
+And - minus 22222
 
 @SC_155513
 Scenario: Scenario 1
@@ -75,3 +83,4 @@ And test REL-2772 autocomplite
 And 2222222222222222
 And -333333333333333
 And -ppppppppppp
+And min
