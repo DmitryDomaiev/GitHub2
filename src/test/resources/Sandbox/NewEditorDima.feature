@@ -81,6 +81,7 @@ Then I see that the scenario is locked
 Scenario: Unlock scenario
 When I unlock the scenario
 Then I see that the scenario is unlocked
+And abra kadabra
 
 @SC_125015
 Scenario: Edit scenario title
