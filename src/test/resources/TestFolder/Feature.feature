@@ -63,7 +63,7 @@ Then I do...
 
 @SC_123371
 Scenario: Scenario6
-Given lalala
+Given lalala1
 And ololo
 And testing bug 2750
 And -444444minus
@@ -76,7 +76,7 @@ And minus 2222
 And - minus 22222
 
 @SC_155513
-Scenario: Scenario 1
+Scenario: Scenario 7
 When do something
 Then I do...
 And test REL-2772 autocomplite
