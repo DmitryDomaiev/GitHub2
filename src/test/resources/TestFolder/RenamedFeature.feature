@@ -1,5 +1,5 @@
 @ST_25770 @1111 @1 @11 @111 @111111 @1111111
-Feature: Feature 💃
+Feature: RenamedFeature 💃
 
 Background: Beckground
 
