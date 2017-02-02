@@ -1,7 +1,7 @@
-@ST_32987 @asd @sdf @dfg
+@ST_50996 @asd @sdf @dfg
 Feature: REL-1742 Hide not used selectors and rename appropriate controllers on Project settings page
 
-@SC_172201
+@SC_193108
 Scenario: Creane new poject
 Given I am in page "Default"
 And I am signed in as "DO"
@@ -10,7 +10,7 @@ When I click button "+"
 Then I see that pop-up "NEW PROJECT" is displayed
 And I see that "BDD Framework" is not displayed
 
-@SC_172202
+@SC_193109
 Scenario: Settings page
 Given I am in page "Default"
 And I am signed in as "DO"
