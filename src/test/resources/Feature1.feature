@@ -5,6 +5,7 @@ Background:
 
 Given bla-bla
 And test
+|asafs|
 
 @SC_193070 @1111 @11111 @1 @11 @111 @111111
 Scenario: Scenario2
