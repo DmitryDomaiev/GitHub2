@@ -1,4 +1,4 @@
-@ST_51003 @1111 @1 @11 @111 @111111 @1111111
+@ST_51003 @1 @11 @111 @111111 @1111111 @1111
 Feature: RenamedFeature 💃
 
 Background: Beckground
