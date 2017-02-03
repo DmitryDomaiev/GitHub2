@@ -1,7 +1,7 @@
 @ST_50985
 Feature: Feature1
 
-Background: 
+Background: With DT
 
 Given bla-bla
 And test
