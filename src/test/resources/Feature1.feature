@@ -10,8 +10,8 @@ And test
 @SC_193071
 Scenario: \_(ツ)_/¯
 Given trololo
-|\_(ツ)_/¯|
 And ...
+|test REL-2993|
 
 @SC_193070 @1111 @11111 @1 @11 @111 @111111
 Scenario: Scenario2
