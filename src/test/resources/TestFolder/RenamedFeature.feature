@@ -8,6 +8,13 @@ When do something
 Then I do...
 |test REL-2993|
 
+@SC_193177
+Scenario: Scenario 3 with DT
+Given some given
+When do something
+Then I do...
+|test REL-2993|
+
 @SC_193175
 Scenario Outline: Scenario 1
 When do something
@@ -43,12 +50,6 @@ Examples:
 |name 1|name 2|name 3|name 4|
 |1|1|1|1|
 
-
-@SC_193177
-Scenario: Scenario 3
-Given some given
-When do something
-Then I do...
 
 @SC_193178
 Scenario: Scenario 4
