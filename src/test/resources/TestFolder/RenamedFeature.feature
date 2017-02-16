@@ -1,13 +1,21 @@
-@ST_32993 @1111 @1 @11 @111 @111111 @1111111
+@ST_45725 @1 @111111 @111 @11 @1111111 @1111
 Feature: RenamedFeature 💃
 
-Background: Beckground
+Background: Beckground with DT
 
 Given some given
 When do something
 Then I do...
+|test REL-2993|
 
-@SC_172237
+@SC_222104
+Scenario: Scenario 3 with DT
+Given some given
+When do something
+Then I do...
+|test REL-2993|
+
+@SC_222105
 Scenario Outline: Scenario 1
 When do something
 Then I do...
@@ -31,7 +39,7 @@ Examples:
 ||||||||
 
 
-@SC_172238 @REL-2329 @test @bbb @yyy @1
+@SC_222106 @test @REL-2329 @bbb @yyy @1
 Scenario Outline: Scenario 2
 asdasdadsasd
 When do something
@@ -43,25 +51,19 @@ Examples:
 |1|1|1|1|
 
 
-@SC_172239
-Scenario: Scenario 3
-Given some given
-When do something
-Then I do...
-
-@SC_172240
+@SC_222107
 Scenario: Scenario 4
 Given some given
 When do something
 Then I do...asdgagds
 
-@SC_172241
+@SC_222108
 Scenario: Scenario 5
 Given some given
 When do something
 Then I do...
 
-@SC_172242
+@SC_222109
 Scenario: Scenario6
 Given lalala1
 And ololo
@@ -75,7 +77,7 @@ And - minus2222
 And minus 2222
 And - minus 22222
 
-@SC_172243
+@SC_222110
 Scenario: Scenario 7
 When do something
 Then I do...

@@ -1,17 +1,17 @@
-@ST_32977
+@ST_45709
 Feature: Feature1
 
 Background: 
 
 Given some given
 
-@SC_172167
+@SC_222005
 Scenario: 
 Given some given
 When do something
 Then I do...
 
-@SC_172168
+@SC_222006
 Scenario: 
 Given some given
 When do something
