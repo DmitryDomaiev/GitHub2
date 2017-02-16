@@ -1,4 +1,4 @@
-@ST_45725 @1 @111111 @111 @11 @1111111 @1111
+@ST_45725 @1111 @1 @11 @111 @111111 @1111111
 Feature: RenamedFeature 💃
 
 Background: Beckground with DT
@@ -39,7 +39,7 @@ Examples:
 ||||||||
 
 
-@SC_222106 @test @REL-2329 @bbb @yyy @1
+@SC_222106 @REL-2329 @test @bbb @yyy @1
 Scenario Outline: Scenario 2
 asdasdadsasd
 When do something
