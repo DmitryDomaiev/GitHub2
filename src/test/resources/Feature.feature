@@ -1,5 +1,5 @@
 @ST_45709
-Feature: Feature1
+Feature: Feature
 
 Background: 
 
