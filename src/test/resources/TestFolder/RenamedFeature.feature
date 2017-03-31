@@ -1,5 +1,5 @@
 @ST_45725 @1111 @1 @11 @111 @111111 @1111111
-Feature: RenamedFeature 💃
+Feature: Feature 💃
 
 Background: Beckground with DT
 
